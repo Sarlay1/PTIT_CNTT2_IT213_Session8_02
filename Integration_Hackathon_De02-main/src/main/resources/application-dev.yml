@@ -1,0 +1,7 @@
+openai:
+  api-key: ${OPENROUTER_API_KEY:}
+
+database:
+  host: ${SUPABASE_DB_HOST:}
+  username: ${SUPABASE_DB_USERNAME:postgres}
+  password: ${SUPABASE_DB_PASSWORD:}
